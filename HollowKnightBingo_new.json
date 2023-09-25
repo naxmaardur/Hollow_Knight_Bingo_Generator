@@ -61,7 +61,7 @@
     },
     "RancidEggs": {
         "name": "Collect 3 Rancid eggs (not Tukk)",
-        "excludes": {},
+        "excludes": ["BuyRancid"],
         "Difficulty": 1
     },
     "BuyMap": {
@@ -137,7 +137,7 @@
     },
     "MatoOro": {
         "name": "Cyclone Slash + Dash Slash",
-        "excludes": {},
+        "excludes": ["Sly","Sheo"],
         "Difficulty": 2
     },
     "Wings": {
@@ -152,7 +152,7 @@
     },
     "BuyRancid": {
         "name": "Buy 1 Rancid eggs from Tukk + Summon your shade",
-        "excludes": {},
+        "excludes": ["RancidEggs"],
         "Difficulty": 2
     },
     "Cloth": {
@@ -162,7 +162,7 @@
     },
     "GrubOre": {
         "name": "Pale ore from Grubfather (31 grubs)",
-        "excludes": {},
+        "excludes": ["paleore"],
         "Difficulty": 2
     },
     "CityCrest": {
@@ -202,7 +202,7 @@
     },
     "paleore": {
         "name": "Spend 2 pale ore",
-        "excludes": {},
+        "excludes": ["GrubOre"],
         "Difficulty": 2
     },
     "NoWings": {
@@ -243,9 +243,14 @@
     },
     "Sheo": {
         "name": "Great Slash",
-        "excludes": {},
+        "excludes": ["MatoOro","Sly"],
         "Difficulty": 3
     },
+	"Sly": {
+		"name": "nailmaster's glory",
+		"excludes": ["Sheo","MatoOro"],
+		"Difficulty": 3
+	},
     "Unn": {
         "name": "Shape of Unn",
         "excludes": {},
@@ -253,7 +258,7 @@
     },
     "ElderFlower": {
         "name": "Give the flower to elder bug",
-        "excludes": {},
+        "excludes": ["GodseekerFlower"],
         "Difficulty": 3
     },
     "Collector": {
