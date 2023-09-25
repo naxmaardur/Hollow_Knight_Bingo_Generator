@@ -65,6 +65,8 @@ server.listen(port, hostname, () => {
     });
 });
 
+server.close();
+
 
 function MakeListOfDifficulty(dif) {
 	var list = {};
