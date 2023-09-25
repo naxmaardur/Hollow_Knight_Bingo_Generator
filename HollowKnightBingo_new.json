@@ -118,7 +118,7 @@
         "name": "Pick up 6 charms",
         "excludes": {},
         "Difficulty": 1
-    }
+    },
 
     Wraith: {
         "name": "Howling Wraiths",
@@ -209,7 +209,7 @@
         "name": "Unlock the shorcut left of the watcher knight without using Monarch Wings (using means reset)",
         "excludes": {},
         "Difficulty": 2
-    }
+    },
 
     Grimm: {
         "name": "Grimm",
@@ -285,7 +285,7 @@
         "name": "Watcher knights without spells + without chandelier",
         "excludes": {},
         "Difficulty": 3
-    }
+    },
 
     HollowKnight: {
         "name": "Hollow Knight",
