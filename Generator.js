@@ -25,15 +25,13 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello Worldtt');
-  
-  
 });
 
 server.listen(port, hostname, () => {
   //console.log(`Server running at http://${hostname}:${port}/`);
   
   //Run generator;
-  var ObjectHolder = RandomProperty(Dif4);
+  var ObjectHolder = RandomPropertyAndRemove(Dif4);
   RemoveExclusions(ObjectHolder["excludes"]);
   var Entry = {};
   Entry.name = ObjectHolder.name;
@@ -42,13 +40,13 @@ server.listen(port, hostname, () => {
   for(var i = 0; i < gridLayout.length; i++){
 	  var result;
 	  if(gridLayout[i] === 1){
-		result = RandomProperty(Dif1);
+		result = RandomPropertyAndRemove(Dif1);
 	  }
 	  if(gridLayout[i] === 2){
-		result = RandomProperty(Dif2);
+		result = RandomPropertyAndRemove(Dif2);
 	  }
 	  if(gridLayout[i] === 3){
-		result = RandomProperty(Dif3);
+		result = RandomPropertyAndRemove(Dif3);
 	  }
 	  
 	  if(gridLayout[i] !== 4){
@@ -93,9 +91,12 @@ function RemoveExclusions(exclusions){
 	
 
 
-function RandomProperty(obj) {
+function RandomPropertyAndRemove(obj) {
     var keys = Object.keys(obj);
-    return obj[keys[ keys.length * Math.random() << 0]];
+	var key = keys.length * Math.random() << 0;
+	var result = obj[keys[key]];
+	delete obj[keys[key]];
+    return result;
 };
 			
 
