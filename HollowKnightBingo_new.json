@@ -1,0 +1,331 @@
+{
+    CrystalHeart: {
+        "name": "Crystal Heart",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    Journals: {
+        "name": "Wanderous Journal 5",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    Seals: {
+        "name": "Hallownest Seal 4",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    Grubsong: {
+        "name": "Grubsong (10 grubs)",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    CityAndHerrah: {
+        "name": "Speak to Hornet in City of Tears + Herrah",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    BrettaAndSly: {
+        "name": "Save Bretta + Sly",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    VesselUpgrade: {
+        "name": "1 Vessel upgrade",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    UseKey: {
+        "name": "use two Simple keys",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    Dreamnail: {
+        "name": "Dreamnail",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    Lemm: {
+        "name": "Talk to lemm with defender's crest equipped",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    SpiritGlade: {
+        "name": "Open Spirits Glade (200 essence)",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    MaskUpgrade: {
+        "name": "2 mask upgrades",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    RancidEggs: {
+        "name": "Collect 3 Rancid eggs (not Tukk)",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    BuyMap: {
+        "name": "Buy all maps",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    Stags: {
+        "name": "Open all Stags",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    Tram: {
+        "name": "Ride on Tram",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    LifeBloodM: {
+        "name": "Have 5 Lifeblood masks",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    HunterJ: {
+        "name": "3 Complete Hunter's journal entries (no Bosses)",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    VengeflyCharger: {
+        "name": "Vengefly King + Massive Moss Charger",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    HotSprings: {
+        "name": "Take a bath in all 4 hotsprings",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    Benches: {
+        "name": "Sit on 10 benches",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    FlukeHermit: {
+        "name": "Talk to the Fluke Hermit",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    FlyLantern {
+        "name": "Lumafly Lantern",
+        "excludes": {},
+        "Difficulty": 1
+    },
+    Charms: {
+        "name": "Pick up 6 charms",
+        "excludes": {},
+        "Difficulty": 1
+    }
+
+    Wraith: {
+        "name": "Howling Wraiths",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    DDark: {
+        "name": "Descending Dark",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    ShadeSoul: {
+        "name": "Shade Soul",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    MatoOro: {
+        "name": "Cyclone Slash + Dash Slash",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    Wings: {
+        "name": "Monarch Wings",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    Idols: {
+        "name": "Kings Idol 3",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    BuyRancid: {
+        "name": "Buy 1 Rancid eggs from Tukk + Summon your shade",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    Cloth: {
+        "name": "Speak to Cloth in three locations",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    GrubOre: {
+        "name": "Pale ore from Grubfather (31 grubs)",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    CityCrest: {
+        "name": "Use city crest + both elevators in City of Tears",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    DreamGate: {
+        "name": "Dream Gate (900 Essence)",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    GardenToNest: {
+        "name": "First entrance to Deepnest via Queen's Gardens",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    FlukeSpells: {
+        "name": "Kill an boss with Fluke Spells",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    GlowingGrimm: {
+        "name": "Defeat boss with Glowin Whomb + Grimmchild",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    Godtuner: {
+        "name": "Godtuner",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    Notches: {
+        "name": "Obtain 3 Charm Notches",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    paleore: {
+        "name": "Spend 2 pale ore",
+        "excludes": {},
+        "Difficulty": 2
+    },
+    NoWings: {
+        "name": "Unlock the shorcut left of the watcher knight without using Monarch Wings (using means reset)",
+        "excludes": {},
+        "Difficulty": 2
+    }
+
+    Grimm: {
+        "name": "Grimm",
+        "excludes": {},
+        "Difficulty": 3
+    },
+    Herrah: {
+        "name": "Herrah",
+        "excludes": ["Monomon", "Lurien"],
+        "Difficulty": 3
+    },
+    Monomon: {
+        "name": "Monomon",
+        "excludes": ["Herrah", "Lurien"],
+        "Difficulty": 3
+    },
+    Lurien: {
+        "name": "Lurien",
+        "excludes": ["Herrah", "Monomon"],
+        "Difficulty": 3
+    },
+    KingsBrand: {
+        "name": "Kings Brand",
+        "excludes": {},
+        "Difficulty": 3
+    },
+    ColoseumZote: {
+        "name": "Coloseum Zote",
+        "excludes": {},
+        "Difficulty": 3
+    },
+    Sheo: {
+        "name": "Great Slash",
+        "excludes": {},
+        "Difficulty": 3
+    },
+    Unn: {
+        "name": "Shape of Unn",
+        "excludes": {},
+        "Difficulty": 3
+    },
+    ElderFlower: {
+        "name": "Give the flower to elder bug",
+        "excludes": {},
+        "Difficulty": 3
+    },
+    Collector: {
+        "name": "Collector",
+        "excludes": {},
+        "Difficulty": 3
+    },
+    Banker: {
+        "name": "Take Revenge on the Banker",
+        "excludes": {},
+        "Difficulty": 3
+    },
+    Dreamboss1: {
+        "name": "Soul Tyrant + Lost Kin",
+        "excludes": ["Dreamboss2", "Dreambosses"],
+        "Difficulty": 3
+    },
+    Dreamboss2: {
+        "name": "White Defender + Fallen Champion",
+        "excludes": ["Dreamboss1", "Dreambosses"],
+        "Difficulty": 3
+    },
+    Dreambosses: {
+        "name": "3 Dream Rematches",
+        "excludes": ["Dreamboss1", "Dreamboss2"],
+        "Difficulty": 3
+    },
+    WatcherMelee: {
+        "name": "Watcher knights without spells + without chandelier",
+        "excludes": {},
+        "Difficulty": 3
+    }
+
+    HollowKnight: {
+        "name": "Hollow Knight",
+        "excludes": ["Monomon", "Lurien", "Herrah"],
+        "Difficulty": 4
+    },
+    Mushroom: {
+        "name": "Mr. Mushroom 1",
+        "excludes": ["Monomon", "Lurien", "Herrah"],
+        "Difficulty": 4
+    },
+    Percentage: {
+        "name": "See percentage",
+        "excludes": ["Monomon", "Lurien", "Herrah"],
+        "Difficulty": 4
+    },
+    Sealed: {
+        "name": "Sealed Siblings",
+        "excludes": ["Monomon", "Lurien", "Herrah"],
+        "Difficulty": 4
+    },
+    Banishment: {
+        "name": "Banishment",
+        "excludes": ["Grimm"],
+        "Difficulty": 4
+    },
+    Pantheon: {
+        "name": "Pantheon 1",
+        "excludes": {},
+        "Difficulty": 4
+    },
+    GodseekerFlower {
+        "name": "Give the flower to Godseeker",
+        "excludes": ["ElderFlower"],
+        "Difficulty": 4
+    },
+    Kingsoul: {
+        "name": "Obtain a piece of the kingsoul",
+        "excludes": {},
+        "Difficulty": 4
+    }
+
+}
