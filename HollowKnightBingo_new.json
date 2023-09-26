@@ -5,14 +5,16 @@
         "Difficulty": 1
     },
     "Journals": {
-        "name": "Wanderous Journal 5",
+        "name": "Wanderous Journal %",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["5", "6", "7", "8"]
     },
     "Seals": {
-        "name": "Hallownest Seal 4",
+        "name": "Hallownest Seal %",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["4", "5", "6", "7"]
     },
     "Grubsong": {
         "name": "Grubsong (10 grubs)",
@@ -35,9 +37,10 @@
         "Difficulty": 1
     },
     "UseKey": {
-        "name": "use two Simple keys",
+        "name": "use % Simple keys",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["1", "2", "3"]
     },
     "Dreamnail": {
         "name": "Dreamnail",
@@ -55,24 +58,28 @@
         "Difficulty": 1
     },
     "MaskUpgrade": {
-        "name": "2 mask upgrades",
+        "name": "% mask upgrades",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["1", "2"]
     },
     "RancidEggs": {
-        "name": "Collect 3 Rancid eggs (not Tukk)",
+        "name": "Collect % Rancid eggs (not Tukk)",
         "excludes": ["BuyRancid"],
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["3", "4", "5"]
     },
     "BuyMap": {
-        "name": "Buy all maps",
+        "name": "Buy % maps",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["7", "8", "9", "10", "11", "all"]
     },
     "Stags": {
-        "name": "Open all Stags",
+        "name": "Open % Stags",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["6", "7", "8", "9", "10", "all"]
     },
     "Tram": {
         "name": "Ride on Tram",
@@ -80,14 +87,16 @@
         "Difficulty": 1
     },
     "LifeBloodM": {
-        "name": "Have 5 Lifeblood masks",
+        "name": "Have % Lifeblood masks",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["4", "5", "6"]
     },
     "HunterJ": {
-        "name": "3 Complete Hunter's journal entries (no Bosses)",
+        "name": "% Complete Hunter's journal entries (no Bosses)",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["2", "3", "4", "5"]
     },
     "VengeflyCharger": {
         "name": "Vengefly King + Massive Moss Charger",
@@ -95,14 +104,16 @@
         "Difficulty": 1
     },
     "HotSprings": {
-        "name": "Take a bath in all 4 hotsprings",
+        "name": "Take a bath in % hotsprings",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["3", "all 4"]
     },
     "Benches": {
-        "name": "Sit on 10 benches",
+        "name": "Sit on % benches",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["8", "9", "10", "11", "12", "13", "14", "15", "16"]
     },
     "FlukeHermit": {
         "name": "Talk to the Fluke Hermit",
@@ -115,9 +126,10 @@
         "Difficulty": 1
     },
     "Charms": {
-        "name": "Pick up 6 charms",
+        "name": "Pick up % charms",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+        "variations": ["5", "6", "7"]
     },
 
     "Wraith": {
@@ -146,19 +158,22 @@
         "Difficulty": 2
     },
     "Idols": {
-        "name": "Kings Idol 3",
+        "name": "Kings Idol %",
         "excludes": {},
-        "Difficulty": 2
+        "Difficulty": 2,
+        "variations": ["2", "3"]
     },
     "BuyRancid": {
-        "name": "Buy 1 Rancid eggs from Tukk + Summon your shade",
+        "name": "Buy % Rancid eggs from Tukk + Summon your shade",
         "excludes": ["RancidEggs"],
-        "Difficulty": 2
+        "Difficulty": 2,
+        "variations": ["1", "2", "3"]
     },
     "Cloth": {
-        "name": "Speak to Cloth in three locations",
+        "name": "Speak to Cloth in % locations",
         "excludes": {},
-        "Difficulty": 2
+        "Difficulty": 2,
+        "variations": ["2", "3"]
     },
     "GrubOre": {
         "name": "Pale ore from Grubfather (31 grubs)",
@@ -196,9 +211,10 @@
         "Difficulty": 2
     },
     "Notches": {
-        "name": "Obtain 3 Charm Notches",
+        "name": "Obtain % Charm Notches",
         "excludes": {},
-        "Difficulty": 2
+        "Difficulty": 2,
+        "variations": ["2", "3"]
     },
     "paleore": {
         "name": "Spend 2 pale ore",

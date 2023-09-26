@@ -6,10 +6,10 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 const gridLayout = [2,3,1,1,2,
-			  3,1,2,2,1,
-			  1,2,4,2,1,
-			  2,1,2,1,3,
-			  1,2,1,3,2];
+			  		3,1,2,2,1,
+			  		1,2,4,2,1,
+			  		2,1,2,1,3,
+			  		1,2,1,3,2];
 		
 const BingoJson = require('./HollowKnightBingo_new.json');
 //console.log(BingoJson);
@@ -97,9 +97,21 @@ function RandomPropertyAndRemove(obj) {
     var keys = Object.keys(obj);
 	var key = keys.length * Math.random() << 0;
 	var result = obj[keys[key]];
+	result = VariateResult(result);
 	delete obj[keys[key]];
     return result;
 };
+
+function VariateResult(result) {
+
+	if (result.name.includes("%") && result.variations != null){
+		var index = result.name.indexOf("%");
+		var randomVariation = result.variations[result.variations.length * Math.random() << 0];
+		result.name = result.name.slice(0, index) + randomVariation + result.name.slice(index + 1);
+	}
+	
+	return result;
+}
 			
 
 
