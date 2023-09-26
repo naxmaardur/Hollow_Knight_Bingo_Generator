@@ -18,7 +18,7 @@
     },
     "Grubsong": {
         "name": "Grubsong (10 grubs)",
-        "excludes": {},
+        "excludes": ["GrubOre"],
         "Difficulty": 1
     },
     "CityAndHerrah": {
@@ -32,9 +32,10 @@
         "Difficulty": 1
     },
     "VesselUpgrade": {
-        "name": "1 Vessel upgrade",
+        "name": "Collect % Vessel Fragments",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+		"variations": ["2", "3", "4"]
     },
     "UseKey": {
         "name": "use % Simple keys",
@@ -54,7 +55,7 @@
     },
     "SpiritGlade": {
         "name": "Open Spirits Glade (200 essence)",
-        "excludes": {},
+        "excludes": ["DreamGate"],
         "Difficulty": 1
     },
     "MaskUpgrade": {
@@ -131,7 +132,7 @@
         "Difficulty": 1,
         "variations": ["5", "6", "7"]
     },
-
+	
     "Wraith": {
         "name": "Howling Wraiths",
         "excludes": {},
@@ -177,7 +178,7 @@
     },
     "GrubOre": {
         "name": "Pale ore from Grubfather (31 grubs)",
-        "excludes": ["paleore"],
+        "excludes": ["PaleOre", "Grubsong"],
         "Difficulty": 2
     },
     "CityCrest": {
@@ -187,7 +188,7 @@
     },
     "DreamGate": {
         "name": "Dream Gate (900 Essence)",
-        "excludes": {},
+        "excludes": ["SpiritGlade"],
         "Difficulty": 2
     },
     "GardenToNest": {
@@ -207,7 +208,7 @@
     },
     "Godtuner": {
         "name": "Godtuner",
-        "excludes": {},
+        "excludes": ["Pantheon"],
         "Difficulty": 2
     },
     "Notches": {
@@ -216,7 +217,7 @@
         "Difficulty": 2,
         "variations": ["2", "3"]
     },
-    "paleore": {
+    "PaleOre": {
         "name": "Spend 2 pale ore",
         "excludes": ["GrubOre"],
         "Difficulty": 2
@@ -226,10 +227,10 @@
         "excludes": {},
         "Difficulty": 2
     },
-
+	
     "Grimm": {
         "name": "Grimm",
-        "excludes": {},
+        "excludes": ["Banishment"],
         "Difficulty": 3
     },
     "Herrah": {
@@ -249,9 +250,14 @@
     },
     "KingsBrand": {
         "name": "Kings Brand",
-        "excludes": {},
+        "excludes": ["ArcaneEgg"],
         "Difficulty": 3
     },
+	"ArcaneEgg": {
+		"name": "Collect 1 ArcaneEgg",
+		"excludes": ["KingsBrand"],
+		"Difficulty": 3
+	},
     "ColoseumZote": {
         "name": "Coloseum Zote",
         "excludes": {},
@@ -303,9 +309,10 @@
         "Difficulty": 3
     },
     "WatcherMelee": {
-        "name": "Watcher knights without spells + without chandelier",
+        "name": "Watcher knights without spells %",
         "excludes": {},
-        "Difficulty": 3
+        "Difficulty": 3,
+        "variations": ["", "+ without chandelier"]
     },
 
     "HollowKnight": {
@@ -313,7 +320,7 @@
         "excludes": ["Monomon", "Lurien", "Herrah"],
         "Difficulty": 4
     },
-    "Mushroom": {
+    "MrMushroom": {
         "name": "Mr. Mushroom 1",
         "excludes": ["Monomon", "Lurien", "Herrah"],
         "Difficulty": 4
@@ -335,7 +342,7 @@
     },
     "Pantheon": {
         "name": "Pantheon 1",
-        "excludes": {},
+        "excludes": ["Godtuner"],
         "Difficulty": 4
     },
     "GodseekerFlower": {
