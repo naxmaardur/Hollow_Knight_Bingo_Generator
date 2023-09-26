@@ -1,62 +1,42 @@
-
 const fs = require('fs');
 const http = require('http');
  
 const hostname = '127.0.0.1';
 const port = 3000;
 
-const gridLayout = [2,3,1,1,2,
-			  		3,1,2,2,1,
-			  		1,2,4,2,1,
-			  		2,1,2,1,3,
-			  		1,2,1,3,2];
+const gridLayout = [
+	2,3,1,1,2,
+	3,1,2,2,1,
+	1,2,4,2,1,
+	2,1,2,1,3,
+	1,2,1,3,2
+];
 		
 const BingoJson = require('./HollowKnightBingo_new.json');
-//console.log(BingoJson);
-
-const Dif1 = MakeListOfDifficulty(1);
-const Dif2 = MakeListOfDifficulty(2);
-const Dif3 = MakeListOfDifficulty(3);
-const Dif4 = MakeListOfDifficulty(4);
-
-const Finallist =  [,,,,,,,,,,,,,,,,,,,,,,,,];
+const Dif = [null, MakeListOfDifficulty(1), MakeListOfDifficulty(2), MakeListOfDifficulty(3), MakeListOfDifficulty(4)];
+const Finallist =  Array(25);
  
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello Worldtt');
+  res.end('Nothing');
 });
 
 server.listen(port, hostname, () => {
-  //console.log(`Server running at http://${hostname}:${port}/`);
-  
   //Run generator;
-  var ObjectHolder = RandomPropertyAndRemove(Dif4);
+  var ObjectHolder = RandomPropertyAndRemove(Dif[4]);
   RemoveExclusions(ObjectHolder["excludes"]);
   var Entry = {};
   Entry.name = ObjectHolder.name;
   Finallist[12] = Entry;
-  
   for(var i = 0; i < gridLayout.length; i++){
-	  var result;
-	  if(gridLayout[i] === 1){
-		result = RandomPropertyAndRemove(Dif1);
-	  }
-	  if(gridLayout[i] === 2){
-		result = RandomPropertyAndRemove(Dif2);
-	  }
-	  if(gridLayout[i] === 3){
-		result = RandomPropertyAndRemove(Dif3);
-	  }
-	  
 	  if(gridLayout[i] !== 4){
+		var result = RandomPropertyAndRemove(Dif[gridLayout[i]]);
 		RemoveExclusions(result["excludes"]);
-		var NewEntry = {};
-		NewEntry.name = result.name;
-		Finallist[i] = NewEntry;
+		Finallist[i] = {name: result.name};
 	  }
   }
-  
+
    var str = JSON.stringify(Finallist);
 	fs.writeFile('Output.txt', str, (err) => {
         console.log(str);
@@ -67,10 +47,8 @@ server.listen(port, hostname, () => {
 
 server.close();
 
-
 function MakeListOfDifficulty(dif) {
 	var list = {};
-	
 	for (const key in BingoJson) {
 		if(BingoJson[key]['Difficulty'] == dif){
 			list[key] =BingoJson[key];
@@ -79,37 +57,31 @@ function MakeListOfDifficulty(dif) {
 	return list;
 }
 
-
-function RemoveExclusions(exclusions){
-	if(exclusions != {} ){
-		for(var i = 0; i < exclusions.length; i++){
-			delete Dif1[exclusions[i]];
-			delete Dif2[exclusions[i]];
-			delete Dif3[exclusions[i]];
+function RemoveExclusions(exclusions) {
+	if (exclusions && exclusions.length > 0) {
+		for (let i = 1; i <= 3; i++) {
+			for (const key of exclusions) {
+				delete Dif[i][key];
+			}
 		}
 	}
 }	
-	
-	
-
 
 function RandomPropertyAndRemove(obj) {
     var keys = Object.keys(obj);
-	var key = keys.length * Math.random() << 0;
-	var result = obj[keys[key]];
+	var keyIndex = keys.length * Math.random() << 0;
+	var result = obj[keys[keyIndex]];
 	result = VariateResult(result);
-	delete obj[keys[key]];
+	delete obj[keys[keyIndex]];
     return result;
 };
 
 function VariateResult(result) {
-
 	if (result.name.includes("%") && result.variations != null){
 		var index = result.name.indexOf("%");
 		var randomVariation = result.variations[result.variations.length * Math.random() << 0];
 		result.name = result.name.slice(0, index) + randomVariation + result.name.slice(index + 1);
 	}
-	
 	return result;
 }
 			
