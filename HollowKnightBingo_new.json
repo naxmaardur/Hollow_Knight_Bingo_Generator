@@ -132,6 +132,18 @@
         "Difficulty": 1,
         "variations": ["5", "6", "7"]
     },
+	"HornetHitless":{
+		"name": "Hitless% Hornet",
+		"excludes": ["Hitless"],
+		"Difficulty": 1,
+		"variations": [""," and spelless"]
+	},
+	
+	"Hitless":{
+		"name": "Hitless any boss after cloack",
+		"excludes": ["HornetHitless"],
+		"Difficulty": 2
+	}
 	
     "Wraith": {
         "name": "Howling Wraiths",
