@@ -101,7 +101,7 @@
     },
     "VengeflyCharger": {
         "name": "Vengefly King + Massive Moss Charger",
-        "excludes": {},
+        "excludes": ["Zote"],
         "Difficulty": 1
     },
     "HotSprings": {
@@ -192,9 +192,10 @@
         "Difficulty": 2
     },
     "GardenToNest": {
-        "name": "First entrance to Deepnest via Queen's Gardens",
+        "name": "First entrance to Deepnest via %",
         "excludes": {},
-        "Difficulty": 2
+        "Difficulty": 2,
+		"variations": ["Queen's Gardens", "Mantis Lords"]
     },
     "FlukeSpells": {
         "name": "Kill a boss with Fluke Spells",
@@ -202,9 +203,10 @@
         "Difficulty": 2
     },
     "GlowingGrimm": {
-        "name": "Defeat boss with Glowin Whomb + Grimmchild",
+        "name": "Defeat boss with Glowin Whomb %",
         "excludes": {},
-        "Difficulty": 2
+        "Difficulty": 2,
+		"variations": ["", "+ Grimmchild"]
     },
     "Godtuner": {
         "name": "Godtuner",
@@ -227,6 +229,12 @@
         "excludes": {},
         "Difficulty": 2
     },
+	"Zote":{
+		"name": "Save Zote %",
+		"excludes": ["ColoseumZote", "VengeflyCharger"],
+		"Difficulty": 2,
+		"variations": ["", "in deepnest"]
+	},
 	
     "Grimm": {
         "name": "Grimm",
@@ -260,7 +268,7 @@
 	},
     "ColoseumZote": {
         "name": "Coloseum Zote",
-        "excludes": {},
+        "excludes": ["Zote"],
         "Difficulty": 3
     },
     "Sheo": {
@@ -304,9 +312,10 @@
         "Difficulty": 3
     },
     "Dreambosses": {
-        "name": "3 Dream Rematches",
+        "name": "% Dream Rematches",
         "excludes": ["Dreamboss1", "Dreamboss2"],
-        "Difficulty": 3
+        "Difficulty": 3,
+		"variations": ["2","3","4"]
     },
     "WatcherMelee": {
         "name": "Watcher knights without spells %",
