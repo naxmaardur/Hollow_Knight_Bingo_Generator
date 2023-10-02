@@ -367,7 +367,7 @@
         "Difficulty": 4
     },
     "Banishment": {
-        "name": "Banishment",
+        "name": "Banishment and Nightmare King Grimm",
         "excludes": ["Grimm"],
         "Difficulty": 4
     },
