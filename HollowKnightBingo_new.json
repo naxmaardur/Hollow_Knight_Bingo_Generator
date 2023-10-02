@@ -38,7 +38,7 @@
 		"variations": ["2", "3", "4"]
     },
     "UseKey": {
-        "name": "Use % Simple keys",
+        "name": "use % Simple keys",
         "excludes": {},
         "Difficulty": 1,
         "variations": ["1", "2", "3"]
@@ -49,17 +49,17 @@
         "Difficulty": 1
     },
     "Lemm": {
-        "name": "Talk to Lemm with Defender's Crest equipped",
+        "name": "Talk to lemm with defender's crest equipped",
         "excludes": {},
         "Difficulty": 1
     },
     "SpiritGlade": {
-        "name": "Open Spirits Glade (200 Essence)",
+        "name": "Open Spirits Glade (200 essence)",
         "excludes": ["DreamGate"],
         "Difficulty": 1
     },
     "MaskUpgrade": {
-        "name": "% Mask upgrades",
+        "name": "% mask upgrades",
         "excludes": {},
         "Difficulty": 1,
         "variations": ["1", "2"]
@@ -94,7 +94,7 @@
         "variations": ["4", "5", "6"]
     },
     "HunterJ": {
-        "name": "% Complete Hunter's journal entries (no bosses)",
+        "name": "% Complete Hunter's journal entries (no Bosses)",
         "excludes": {},
         "Difficulty": 1,
         "variations": ["2", "3", "4", "5"]
@@ -105,7 +105,7 @@
         "Difficulty": 1
     },
     "HotSprings": {
-        "name": "Take a bath in % Hotsprings",
+        "name": "Take a bath in % hotsprings",
         "excludes": {},
         "Difficulty": 1,
         "variations": ["3", "all 4"]
@@ -189,12 +189,12 @@
         "variations": ["2", "3"]
     },
     "GrubOre": {
-        "name": "Pale Ore from Grubfather (31 grubs)",
+        "name": "Pale ore from Grubfather (31 grubs)",
         "excludes": ["PaleOre", "Grubsong"],
         "Difficulty": 2
     },
     "CityCrest": {
-        "name": "Use City Crest + both elevators in City of Tears",
+        "name": "Use city crest + both elevators in City of Tears",
         "excludes": {},
         "Difficulty": 2
     },
@@ -215,7 +215,7 @@
         "Difficulty": 2
     },
     "GlowingGrimm": {
-        "name": "Kill a boss with Glowing Womb %",
+        "name": "Kill a boss with Glowing Whomb %",
         "excludes": {},
         "Difficulty": 2,
 		"variations": ["", "+ Grimmchild"]
@@ -232,17 +232,17 @@
         "variations": ["2", "3"]
     },
     "PaleOre": {
-        "name": "Spend 2 Pale Ore",
+        "name": "Spend 2 pale ore",
         "excludes": ["GrubOre"],
         "Difficulty": 2
     },
     "Fountain": {
-        "name": "Drop 3000 Geo into the fountain",
+        "name": "Drop 3000 geo into the fountian",
         "excludes": {},
         "Difficulty": 2
     },
     "NoWings": {
-        "name": "Unlock the shortcut left of the Watcher Knights without using Monarch Wings (using means reset)",
+        "name": "Unlock the shorcut left of the watcher knight without using Monarch Wings (using means reset)",
         "excludes": ["Wings"],
         "Difficulty": 2
     },
@@ -274,7 +274,7 @@
         "Difficulty": 3
     },
     "KingsBrand": {
-        "name": "King's Brand",
+        "name": "Kings Brand",
         "excludes": ["ArcaneEgg"],
         "Difficulty": 3
     },
@@ -284,7 +284,7 @@
 		"Difficulty": 3
 	},
     "ColoseumZote": {
-        "name": "Colosseum Zote",
+        "name": "Coloseum Zote",
         "excludes": ["Zote"],
         "Difficulty": 3
     },
@@ -294,7 +294,7 @@
         "Difficulty": 3
     },
 	"Sly": {
-		"name": "Nailmaster's Glory",
+		"name": "nailmaster's glory",
 		"excludes": ["Sheo","MatoOro"],
 		"Difficulty": 3
 	},
@@ -304,7 +304,7 @@
         "Difficulty": 3
     },
     "ElderFlower": {
-        "name": "Give the Delicate Flower to elder bug",
+        "name": "Give the flower to elder bug",
         "excludes": ["GodseekerFlower"],
         "Difficulty": 3
     },
@@ -314,7 +314,7 @@
         "Difficulty": 3
     },
     "Banker": {
-        "name": "Take revenge on the Banker",
+        "name": "Take Revenge on the Banker",
         "excludes": {},
         "Difficulty": 3
     },
@@ -335,13 +335,13 @@
 		"variations": ["2","3","4"]
     },
     "WatcherMelee": {
-        "name": "Watcher Knights without spells %",
+        "name": "Watcher knights without spells %",
         "excludes": {},
         "Difficulty": 3,
         "variations": ["", "+ without chandelier"]
     },
     "KillCloth": {
-        "name": "Kill Cloth!",
+        "name": "Kill Cloth",
         "excludes": ["Cloth"],
         "Difficulty": 3
     },
@@ -367,7 +367,7 @@
         "Difficulty": 4
     },
     "Banishment": {
-        "name": "Banishment",
+        "name": "Banishment and Nightmare King Grimm",
         "excludes": ["Grimm"],
         "Difficulty": 4
     },
@@ -377,12 +377,12 @@
         "Difficulty": 4
     },
     "GodseekerFlower": {
-        "name": "Give the Delicate Flower to Godseeker",
+        "name": "Give the flower to Godseeker",
         "excludes": ["ElderFlower"],
         "Difficulty": 4
     },
     "Kingsoul": {
-        "name": "Obtain a piece of the Kingsoul",
+        "name": "Obtain a piece of the kingsoul",
         "excludes": ["CityAndHerrah","KingsBrand","ArcaneEgg","KillCloth","Cloth"],
         "Difficulty": 4
     }
