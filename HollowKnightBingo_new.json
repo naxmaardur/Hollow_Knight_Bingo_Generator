@@ -23,8 +23,8 @@
     },
     "CityAndHerrah": {
         "name": "Speak to Hornet in City of Tears + Herrah",
-        "excludes": {},
-        "Difficulty": 1
+        "excludes": ["Herrah"],
+        "Difficulty": 3
     },
     "BrettaAndSly": {
         "name": "Save Bretta + Sly",
@@ -140,7 +140,7 @@
 	},
 	
 	"Hitless":{
-		"name": "Hitless any boss after cloack",
+		"name": "Hitless any boss after cloak",
 		"excludes": ["HornetHitless"],
 		"Difficulty": 2
 	},
@@ -184,7 +184,7 @@
     },
     "Cloth": {
         "name": "Speak to Cloth in % locations",
-        "excludes": {},
+        "excludes": ["KillCloth"],
         "Difficulty": 2,
         "variations": ["2", "3"]
     },
@@ -215,7 +215,7 @@
         "Difficulty": 2
     },
     "GlowingGrimm": {
-        "name": "Defeat boss with Glowin Whomb %",
+        "name": "Kill a boss with Glowin Whomb %",
         "excludes": {},
         "Difficulty": 2,
 		"variations": ["", "+ Grimmchild"]
@@ -238,14 +238,14 @@
     },
     "NoWings": {
         "name": "Unlock the shorcut left of the watcher knight without using Monarch Wings (using means reset)",
-        "excludes": {},
+        "excludes": ["Wings"],
         "Difficulty": 2
     },
 	"Zote":{
 		"name": "Save Zote %",
 		"excludes": ["ColoseumZote", "VengeflyCharger"],
 		"Difficulty": 2,
-		"variations": ["", "in deepnest"]
+		"variations": ["from Vengefly", "in deepnest"]
 	},
 	
     "Grimm": {
@@ -255,7 +255,7 @@
     },
     "Herrah": {
         "name": "Herrah",
-        "excludes": ["Monomon", "Lurien"],
+        "excludes": ["Monomon", "Lurien","CityAndHerrah"],
         "Difficulty": 3
     },
     "Monomon": {
@@ -335,6 +335,11 @@
         "Difficulty": 3,
         "variations": ["", "+ without chandelier"]
     },
+    "KillCloth": {
+        "name": "Kill Cloth",
+        "excludes": ["Cloth"],
+        "Difficulty": 3
+    },
 
     "HollowKnight": {
         "name": "Hollow Knight",
@@ -353,7 +358,7 @@
     },
     "Sealed": {
         "name": "Sealed Siblings",
-        "excludes": ["Monomon", "Lurien", "Herrah"],
+        "excludes": ["Monomon", "Lurien", "Herrah", "CityAndHerrah"],
         "Difficulty": 4
     },
     "Banishment": {
@@ -373,7 +378,7 @@
     },
     "Kingsoul": {
         "name": "Obtain a piece of the kingsoul",
-        "excludes": {},
+        "excludes": ["CityAndHerrah","KingsBrand","ArcaneEgg","KillCloth","Cloth"],
         "Difficulty": 4
     }
 
