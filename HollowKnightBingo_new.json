@@ -5,13 +5,13 @@
         "Difficulty": 1
     },
     "Journals": {
-        "name": "Wanderous Journal %",
+        "name": "Sell % Wanderous Journals",
         "excludes": {},
         "Difficulty": 1,
         "variations": ["5", "6", "7", "8"]
     },
     "Seals": {
-        "name": "Hallownest Seal %",
+        "name": "Sell % Hallownest Seals",
         "excludes": {},
         "Difficulty": 1,
         "variations": ["4", "5", "6", "7"]
@@ -171,7 +171,7 @@
         "Difficulty": 2
     },
     "Idols": {
-        "name": "Kings Idol %",
+        "name": "Sell % Kings Idols",
         "excludes": {},
         "Difficulty": 2,
         "variations": ["2", "3"]
@@ -234,6 +234,11 @@
     "PaleOre": {
         "name": "Spend 2 pale ore",
         "excludes": ["GrubOre"],
+        "Difficulty": 2
+    },
+    "Fountain": {
+        "name": "Drop 3000 geo into the fountian",
+        "excludes": {},
         "Difficulty": 2
     },
     "NoWings": {
