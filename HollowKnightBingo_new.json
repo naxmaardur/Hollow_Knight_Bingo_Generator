@@ -23,7 +23,7 @@
     },
     "CityAndHerrah": {
         "name": "Speak to Hornet in City of Tears + Herrah",
-        "excludes": ["Herrah"],
+        "excludes": ["Herrah","KingsBrand","ArcaneEgg"],
         "Difficulty": 3
     },
     "BrettaAndSly": {
