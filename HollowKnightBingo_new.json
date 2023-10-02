@@ -215,7 +215,7 @@
         "Difficulty": 2
     },
     "GlowingGrimm": {
-        "name": "Kill a boss with Glowin Whomb %",
+        "name": "Kill a boss with Glowing Whomb %",
         "excludes": {},
         "Difficulty": 2,
 		"variations": ["", "+ Grimmchild"]
@@ -279,7 +279,7 @@
         "Difficulty": 3
     },
 	"ArcaneEgg": {
-		"name": "Collect 1 ArcaneEgg",
+		"name": "Collect 1 Arcane Egg",
 		"excludes": ["KingsBrand"],
 		"Difficulty": 3
 	},
