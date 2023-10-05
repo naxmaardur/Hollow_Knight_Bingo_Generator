@@ -149,7 +149,7 @@
         "variations": ["", " and spelless"]
     },
     "MenderBug": {
-        "name": "Kill Menderbug",
+        "name": "Kill Menderbug or Myla",
         "excludes": {},
         "Difficulty": 1
     },
@@ -240,10 +240,10 @@
         "Difficulty": 2
     },
     "GlowingGrimm": {
-        "name": "Kill a boss using Glowing Womb %",
+        "name": "Kill a boss only using Glowing Womb %",
         "excludes": {},
         "Difficulty": 2,
-        "variations": ["", "and Grimmchild damage"]
+        "variations": ["damage", "and Grimmchild damage"]
     },
     "Godtuner": {
         "name": "Godtuner",
