@@ -355,14 +355,20 @@
     },
     "Dreamboss2": {
         "name": "White Defender + Fallen Champion",
-        "excludes": ["Dreamboss1", "Dreambosses"],
+        "excludes": ["Dreamboss1", "Dreambosses", "Gravebosses"],
         "Difficulty": 3
     },
     "Dreambosses": {
         "name": "% Dream Rematches",
-        "excludes": ["Dreamboss1", "Dreamboss2"],
+        "excludes": ["Dreamboss1", "Dreamboss2", "Gravebosses"],
         "Difficulty": 3,
         "variations": ["2", "3", "4"]
+    },
+    "Gravebosses": {
+        "name": "Defeat % Warrior Graves",
+        "excludes": ["Dreamboss1", "Dreamboss2", "Dreambosses"],
+        "Difficulty": 3,
+        "variations": ["4", "5", "6"]
     },
     "WatcherMelee": {
         "name": "Watcher Knights without spells %",
