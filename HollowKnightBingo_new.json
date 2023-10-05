@@ -277,6 +277,11 @@
         "Difficulty": 2,
         "variations": ["from Vengefly", "in Deepnest"]
     },
+    "Nosk": {
+        "name": "Nosk",
+        "excludes": {},
+        "Difficulty": 2,
+    },
 
     "Unbreakable": {
         "name": "Make a Unbreakable charm",
