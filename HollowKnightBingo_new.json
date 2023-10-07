@@ -359,8 +359,8 @@
         "Difficulty": 3
     },
     "Dreamboss2": {
-        "name": "White Defender + Fallen Champion",
-        "excludes": ["Dreamboss1", "Dreambosses", "Gravebosses"],
+        "name": "Enraged Guardian + Fallen Champion",
+        "excludes": ["Dreamboss1", "Dreambosses", "Gravebosses","Wings"],
         "Difficulty": 3
     },
     "Dreambosses": {
