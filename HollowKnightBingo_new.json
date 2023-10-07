@@ -1,7 +1,7 @@
 {
     "CrystalHeart": {
         "name": "Crystal Heart",
-        "excludes": {},
+        "excludes": ["Myla"],
         "Difficulty": 1
     },
     "Journals": {
@@ -148,9 +148,9 @@
         "Difficulty": 1,
         "variations": ["", " and spelless"]
     },
-    "MenderBug": {
+    "Myla": {
         "name": "Kill Myla",
-        "excludes": {},
+        "excludes": ["CrystalHeart"],
         "Difficulty": 1
     },
     "5CharmsEquipped": {
