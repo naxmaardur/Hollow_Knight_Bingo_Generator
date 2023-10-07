@@ -149,7 +149,7 @@
         "variations": ["", " and spelless"]
     },
     "MenderBug": {
-        "name": "Kill Menderbug or Myla",
+        "name": "Kill Myla",
         "excludes": {},
         "Difficulty": 1
     },
