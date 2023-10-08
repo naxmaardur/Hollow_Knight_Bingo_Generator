@@ -413,11 +413,6 @@
         "excludes": ["Monomon", "Lurien", "Herrah", "Telescope"],
         "Difficulty": 4
     },
-    "Sealed": {
-        "name": "Sealed Siblings",
-        "excludes": ["Monomon", "Lurien", "Herrah", "CityAndHerrah"],
-        "Difficulty": 4
-    },
     "Banishment": {
         "name": "Banishment and Nightmare King Grimm",
         "excludes": ["Grimm", "GChildUp"],
