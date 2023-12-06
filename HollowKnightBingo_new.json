@@ -240,10 +240,9 @@
         "Difficulty": 2
     },
     "GlowingGrimm": {
-        "name": "Kill a boss only using Glowing Womb %",
+        "name": "Kill a boss only using Grimmchild damage",
         "excludes": {},
         "Difficulty": 2,
-        "variations": ["damage", "and Grimmchild damage"]
     },
     "Godtuner": {
         "name": "Godtuner",
