@@ -242,7 +242,7 @@
     "GlowingGrimm": {
         "name": "Kill a boss only using Grimmchild damage",
         "excludes": {},
-        "Difficulty": 2,
+        "Difficulty": 2
     },
     "Godtuner": {
         "name": "Godtuner",
@@ -309,7 +309,7 @@
     },
     "KingsBrand": {
         "name": "King's Brand",
-        "excludes": ["ArcaneEgg"],
+        "excludes": ["ArcaneEgg","CityAndHerrah"],
         "Difficulty": 3
     },
     "ArcaneEgg": {
