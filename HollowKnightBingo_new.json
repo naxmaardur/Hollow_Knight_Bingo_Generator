@@ -128,7 +128,7 @@
     },
     "FlukeHermit": {
         "name": "Talk to the Fluke Hermit",
-        "excludes": {},
+        "excludes": ["FlukeSpells"],
         "Difficulty": 1
     },
     "FlyLantern": {
@@ -236,7 +236,7 @@
     },
     "FlukeSpells": {
         "name": "Kill a boss with Fluke Spells",
-        "excludes": {},
+        "excludes": ["FlukeHermit"],
         "Difficulty": 2
     },
     "GlowingGrimm": {
@@ -314,7 +314,7 @@
     },
     "ArcaneEgg": {
         "name": "Collect 1 Arcane Egg",
-        "excludes": ["KingsBrand"],
+        "excludes": ["KingsBrand", "CityAndHerrah"],
         "Difficulty": 3
     },
     "ColoseumZote": {
@@ -380,11 +380,7 @@
         "Difficulty": 3,
         "variations": ["", "+ without chandelier"]
     },
-    "KillCloth": {
-        "name": "Kill Cloth!",
-        "excludes": ["Cloth"],
-        "Difficulty": 3
-    },
+    
     "Telescope": {
         "name": "Look through Lurien's telescope",
         "excludes": ["Lurien", "WatcherMelee"],
@@ -431,6 +427,10 @@
         "name": "Obtain a piece of the Kingsoul",
         "excludes": ["CityAndHerrah", "KingsBrand", "ArcaneEgg", "KillCloth", "Cloth"],
         "Difficulty": 4
+    },
+	"KillCloth": {
+        "name": "Kill Cloth!",
+        "excludes": ["Cloth", "KingsBrand","Wings","ArcaneEgg","CityAndHerrah"],
+        "Difficulty": 4
     }
-
 }
