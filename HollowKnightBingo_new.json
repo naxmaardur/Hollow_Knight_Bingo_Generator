@@ -111,7 +111,7 @@
     },
     "VengeflyCharger": {
         "name": "Vengefly King + Massive Moss Charger",
-        "excludes": ["Zote"],
+        "excludes": ["Zote", "Hitless","HornetHitless"],
         "Difficulty": 1
     },
     "HotSprings": {
@@ -144,7 +144,7 @@
     },
     "HornetHitless": {
         "name": "Hitless% Hornet",
-        "excludes": ["Hitless"],
+        "excludes": ["Hitless","VengeflyCharger"],
         "Difficulty": 1,
         "variations": ["", " and spelless"]
     },
@@ -166,7 +166,7 @@
 
     "Hitless": {
         "name": "Hitless any boss after cloak",
-        "excludes": ["HornetHitless"],
+        "excludes": ["HornetHitless","VengeflyCharger"],
         "Difficulty": 2
     },
 
