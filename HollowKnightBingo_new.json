@@ -1,7 +1,7 @@
 {
     "CrystalHeart": {
         "name": "Crystal Heart",
-        "excludes": ["Myla"],
+        "excludes": ["Myla","DDark"],
         "Difficulty": 1
     },
     "Journals": {
@@ -150,7 +150,7 @@
     },
     "Myla": {
         "name": "Kill Myla",
-        "excludes": ["CrystalHeart"],
+        "excludes": ["CrystalHeart","DDark"],
         "Difficulty": 1
     },
     "5CharmsEquipped": {
@@ -177,7 +177,7 @@
     },
     "DDark": {
         "name": "Descending Dark",
-        "excludes": {},
+        "excludes": ["Myla","CrystalHeart"],
         "Difficulty": 2
     },
     "ShadeSoul": {
