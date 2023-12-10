@@ -23,7 +23,7 @@
     },
     "CityAndHerrah": {
         "name": "Speak to Hornet in City of Tears + Herrah",
-        "excludes": ["Herrah", "KingsBrand", "ArcaneEgg"],
+        "excludes": ["Herrah", "KingsBrand", "ArcaneEgg","Wings"],
         "Difficulty": 3
     },
     "BrettaAndSly": {
@@ -192,7 +192,7 @@
     },
     "Wings": {
         "name": "Monarch Wings",
-        "excludes": {},
+        "excludes": ["CityAndHerrah","KingsBrand","ArcaneEgg"],
         "Difficulty": 2
     },
     "Idols": {
@@ -309,12 +309,12 @@
     },
     "KingsBrand": {
         "name": "King's Brand",
-        "excludes": ["ArcaneEgg","CityAndHerrah"],
+        "excludes": ["ArcaneEgg","CityAndHerrah","Wings"],
         "Difficulty": 3
     },
     "ArcaneEgg": {
         "name": "Collect 1 Arcane Egg",
-        "excludes": ["KingsBrand", "CityAndHerrah"],
+        "excludes": ["KingsBrand", "CityAndHerrah","Wings"],
         "Difficulty": 3
     },
     "ColoseumZote": {
