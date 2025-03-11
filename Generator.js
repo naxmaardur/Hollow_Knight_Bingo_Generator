@@ -4,13 +4,15 @@ const http = require('http');
 const hostname = '127.0.0.1';
 const port = 3000;
 
-const gridLayout = [
+/*const gridLayout = [
 	2,3,1,1,2,
 	3,1,2,2,1,
 	1,2,4,2,1,
 	2,1,2,1,3,
 	1,2,1,3,2
-];
+];*/
+
+const PositionsByDifficulty = [[2,3,6,9,10,14,16,18,20,22],[0,4,7,8,11,13,15,17,21,24],[1,5,19,23],[12]];
 		
 const BingoJson = require('./HollowKnightBingo_new.json');
 const Dif = [null, MakeListOfDifficulty(1), MakeListOfDifficulty(2), MakeListOfDifficulty(3), MakeListOfDifficulty(4)];
@@ -24,19 +26,13 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, hostname, () => {
   //Run generator;
-  var ObjectHolder = RandomPropertyAndRemove(Dif[4]);
-  RemoveExclusions(ObjectHolder["excludes"]);
-  var Entry = {};
-  Entry.name = ObjectHolder.name;
-  Finallist[12] = Entry;
-  for(var i = 0; i < gridLayout.length; i++){
-	  if(gridLayout[i] !== 4){
-		var result = RandomPropertyAndRemove(Dif[gridLayout[i]]);
-		RemoveExclusions(result["excludes"]);
-		Finallist[i] = {name: result.name};
-	  }
+  for(var i = PositionsByDifficulty.length-1; i >= 0; i--){
+	   for(var x = 0; x < PositionsByDifficulty[i].length; x++){
+			var result = RandomPropertyAndRemove(Dif[i+1]);
+			RemoveExclusions(result["excludes"]);
+			Finallist[PositionsByDifficulty[i][x]] = {name: result.name};
+	   }
   }
-
    var str = JSON.stringify(Finallist);
 	fs.writeFile('Output.txt', str, (err) => {
         console.log(str);
@@ -45,7 +41,6 @@ server.listen(port, hostname, () => {
     });
 });
 
-server.close();
 
 function MakeListOfDifficulty(dif) {
 	var list = {};
