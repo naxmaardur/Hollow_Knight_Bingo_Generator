@@ -266,7 +266,7 @@
         "Difficulty": 2
     },
     "NoWings": {
-        "name": "Unlock the shortcut left of the Watcher Knights without using Monarch Wings (using means reset)",
+        "name": "Unlock the shortcut left of the Watcher Knights without using Monarch Wings (using means reset to pogo skip)",
         "excludes": ["Wings"],
         "Difficulty": 2
     },
@@ -310,6 +310,11 @@
     "KingsBrand": {
         "name": "King's Brand",
         "excludes": ["ArcaneEgg","CityAndHerrah","Wings"],
+        "Difficulty": 3
+    },
+    "LifeBloodCore": {
+        "name": "Obtain the Lifeblood Core Charm",
+        "excludes": ["ArcaneEgg","Wings","KingsBrand"],
         "Difficulty": 3
     },
     "ArcaneEgg": {
