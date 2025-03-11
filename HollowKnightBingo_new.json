@@ -6,13 +6,13 @@
     },
     "Journals": {
         "name": "Sell % Wanderous Journals",
-        "excludes": {},
+        "excludes": ["Seals","Idols"],
         "Difficulty": 1,
         "variations": ["5", "6", "7", "8"]
     },
     "Seals": {
         "name": "Sell % Hallownest Seals",
-        "excludes": {},
+        "excludes": ["Journals","Idols"],
         "Difficulty": 1,
         "variations": ["4", "5", "6", "7"]
     },
@@ -27,9 +27,10 @@
         "Difficulty": 3
     },
     "BrettaAndSly": {
-        "name": "Save Bretta + Sly",
+        "name": "Save Bretta + Sly%",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+		"variations": [""," and speak to them in Dirtmouth"]
     },
     "VesselUpgrade": {
         "name": "Collect % Vessel Fragments",
@@ -45,7 +46,7 @@
     },
     "Dreamnail": {
         "name": "Dreamnail",
-        "excludes": {},
+        "excludes": ["DreamGate","Dreamnail","Dreambosses","Dreamboss1","Dreamboss2"],
         "Difficulty": 1
     },
     "Lemm": {
@@ -55,7 +56,7 @@
     },
     "SpiritGlade": {
         "name": "Open Spirits Glade (200 Essence)",
-        "excludes": ["DreamGate"],
+        "excludes": ["DreamGate","Dreamnail","Dreambosses","Dreamboss1","Dreamboss2"],
         "Difficulty": 1
     },
     "MaskUpgrade": {
@@ -94,7 +95,7 @@
     },
     "GChildUp": {
         "name": "Upgrade Grimmchild once",
-        "excludes": ["Grimm"],
+        "excludes": ["Grimm","DamnItGrimmchild"],
         "Difficulty": 1
     },
     "LifeBloodM": {
@@ -127,9 +128,10 @@
         "variations": ["8", "9", "10", "11", "12", "13", "14", "15", "16"]
     },
     "FlukeHermit": {
-        "name": "Talk to the Fluke Hermit",
+        "name": "Talk to the Fluke Hermit%",
         "excludes": ["FlukeSpells"],
-        "Difficulty": 1
+        "Difficulty": 1,
+		"variations": [""," With Flukenest equiped"]
     },
     "FlyLantern": {
         "name": "Lumafly Lantern",
@@ -154,20 +156,22 @@
         "Difficulty": 1
     },
     "5CharmsEquipped": {
-        "name": "Equip 5 Charms at the same time",
+        "name": "Equip 5 Charms at the same time%",
         "excludes": {},
-        "Difficulty": 1
+        "Difficulty": 1,
+		"variations": ["", " No overcharm"]
     },
     "DamnItGrimmchild": {
         "name": "Kill 3 Oomas using a minion charm",
-        "excludes": ["GlowingGrimm"],
+        "excludes": ["GlowingGrimm","GChildUp"],
         "Difficulty": 1
     },
 
     "Hitless": {
-        "name": "Hitless any boss after cloak",
+        "name": "%",
         "excludes": ["HornetHitless","VengeflyCharger"],
-        "Difficulty": 2
+        "Difficulty": 2,
+		"variations": ["Hitless any boss after getting cloak", "Hitless any boss that you can only get to after getting cloak (normal game progression)"]
     },
 
     "Wraith": {
@@ -197,7 +201,7 @@
     },
     "Idols": {
         "name": "Sell % Kings Idols",
-        "excludes": {},
+        "excludes": ["Journals","Seals"],
         "Difficulty": 2,
         "variations": ["2", "3"]
     },
@@ -257,7 +261,7 @@
     },
     "PaleOre": {
         "name": "Spend 2 Pale Ore",
-        "excludes": ["GrubOre"],
+        "excludes": ["GrubOre","Nosk"],
         "Difficulty": 2
     },
     "Fountain": {
@@ -266,7 +270,7 @@
         "Difficulty": 2
     },
     "NoWings": {
-        "name": "Unlock the shortcut left of the Watcher Knights without using Monarch Wings (using means reset)",
+        "name": "Unlock the shortcut left of the Watcher Knights without using Monarch Wings (using means reset back to pogo)",
         "excludes": ["Wings"],
         "Difficulty": 2
     },
@@ -278,7 +282,7 @@
     },
     "Nosk": {
         "name": "Nosk",
-        "excludes": {},
+        "excludes": ["PaleOre"],
         "Difficulty": 2
     },
 
@@ -304,7 +308,7 @@
     },
     "Lurien": {
         "name": "Lurien",
-        "excludes": ["Herrah", "Monomon", "Telescope"],
+        "excludes": ["Herrah", "Monomon", "Telescope","WatcherMelee"],
         "Difficulty": 3
     },
     "KingsBrand": {
@@ -376,7 +380,7 @@
     },
     "WatcherMelee": {
         "name": "Watcher Knights without spells %",
-        "excludes": {},
+        "excludes": ["Lurien","Telescope"],
         "Difficulty": 3,
         "variations": ["", "+ without chandelier"]
     },
@@ -390,7 +394,7 @@
         "name": "%",
         "excludes": ["Tram", "Hive"],
         "Difficulty": 3,
-        "variations": ["Hive Knight", "Get all Items and Grubs in the Hive"]
+        "variations": ["Hive Knight", "Get all Items and Grubs in the Hive","Pick up Hiveblood"]
     },
 
     "HollowKnight": {
@@ -432,5 +436,16 @@
         "name": "Kill Cloth!",
         "excludes": ["Cloth", "KingsBrand","Wings","ArcaneEgg","CityAndHerrah"],
         "Difficulty": 4
+    },
+	"WhitePalace": {
+        "name": "Enter White Palace",
+        "excludes": ["Dreamnail", "DreamGate","Wings","Dreamboss1","Dreamboss2","Gravebosses"],
+        "Difficulty": 4
+    },
+	"AwokenDreamNail": {
+        "name": "Awoken dream nail",
+        "excludes": ["Dreamnail", "DreamGate","Dreamboss1","Dreamboss2","Gravebosses"],
+        "Difficulty": 4
     }
+		
 }
