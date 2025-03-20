@@ -28,9 +28,19 @@
     },
     "BrettaAndSly": {
         "name": "Save Bretta + Sly%",
-        "excludes": {},
+        "excludes": ["BrettaSit"],
         "Difficulty": 1,
 		"variations": [""," and speak to them in Dirtmouth"]
+    },
+	"BrettaSit": {
+        "name": "Sit next to Bretta on Dirtmouth bench",
+        "excludes": ["BrettaAndSly"],
+        "Difficulty": 1
+    },
+	"SlyDreamNail": {
+        "name": "Dream nail Sly before saving him from the infection",
+        "excludes": ["Dreamnail"],
+        "Difficulty": 1
     },
     "VesselUpgrade": {
         "name": "Collect % Vessel Fragments",
@@ -46,7 +56,7 @@
     },
     "Dreamnail": {
         "name": "Dreamnail",
-        "excludes": ["DreamGate","Dreamnail","Dreambosses","Dreamboss1","Dreamboss2"],
+        "excludes": ["DreamGate","Dreamnail","Dreambosses","Dreamboss1","Dreamboss2","SlyDreamNail"],
         "Difficulty": 1
     },
     "Lemm": {
@@ -181,6 +191,11 @@
     },
     "DDark": {
         "name": "Descending Dark",
+        "excludes": ["Myla","CrystalHeart","SoulMaster"],
+        "Difficulty": 2
+    },
+	"SoulMaster": {
+        "name": "Beat soul master without jumping",
         "excludes": ["Myla","CrystalHeart"],
         "Difficulty": 2
     },
@@ -304,7 +319,8 @@
     "Monomon": {
         "name": "Monomon",
         "excludes": ["Herrah", "Lurien"],
-        "Difficulty": 3
+        "Difficulty": 3,
+		"variations": ["Monomon", "Sit with Quirrel at Blue Lake"]
     },
     "Lurien": {
         "name": "Lurien",
@@ -339,7 +355,8 @@
     "Sly": {
         "name": "Nailmaster's Glory",
         "excludes": ["Sheo", "MatoOro"],
-        "Difficulty": 3
+        "Difficulty": 3,
+		"variations" : ["Nailmaster's Glory","Bow to all the nail masters"]
     },
     "Unn": {
         "name": "Shape of Unn",
